@@ -1,0 +1,29 @@
+---
+title: "Assianment 1 Part 4(R Markdown)"
+author: "ylei003"
+date: "2022-09-27"
+output:
+  html_document: default
+  pdf_document: default
+---
+
+> a for loop to print integers from 1 to 10
+>
+> i is the variable
+
+### print integers
+```{r}
+print(1)
+print(2)
+```
+
+
+### with the use of loop:
+```{r quote}
+for (i in 1:10){
+  print(i)
+}
+
+```
+
+
